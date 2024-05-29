@@ -32,7 +32,7 @@ header {
 }
 
 .header-text p {
-    font-size: 3em; /* Increase font size for the subtitle */
+    font-size: 3em; /* Increases font size for the subtitle */
     margin-bottom: 10px; /* Space between subtitle and title */
 }
 
@@ -43,19 +43,19 @@ header {
 nav {
     background-color: rgba(0, 0, 0, 0); /* Light gray background for nav */
     position: absolute; /* Position nav absolutely */
-    top: 10px; /* Align nav to the top */
-    right: 20px; /* Align nav to the right */
+    top: 10px; /* Aligns nav to the top */
+    right: 20px; /* Aligns nav to the right */
     /* background-color: rgba(0, 0, 0, 0); Light gray background for nav */
     /* margin-top: 20px; */
-    /* padding: 10px 20px; Add padding to the nav for spacing */
+    /* padding: 10px 20px; Adds padding to the nav for spacing */
     /* justify-content:end; yeh basically parent mein child ko place karta hai */
     /* align-items: center;yeh content ko box mein place karta hai */
 }
 
 nav ul {
-    list-style: none; /* Remove default list styling*/
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
+    list-style: none; /* Removes default list styling*/
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
     display: flex; /* Display list items inline, by default flex content ko rows mein arrange karta hai */
 }
 
@@ -65,10 +65,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #949292d2; /* Set link color */
-    text-decoration: none; /* Remove underline from links */
-    padding: 10px 15px; /* Add padding to links */
-    border-radius: 5px; /* Round the corners */
+    color: #949292d2; /* link color */
+    text-decoration: none; /* Removes underline from links */
+    padding: 10px 15px; /* Adds padding to links */
+    border-radius: 5px; /* Rounds the corners */
     transition: background-color 0.3s, color 0.3s; /* Smooth transition */
 }
 nav ul li a:hover {
@@ -80,9 +80,9 @@ nav ul li a:hover {
 #about {
     background-color: #f4f4f4; /* Light gray background color */
     display: flex; /* Use flexbox for layout */
-    padding: 50px 20px; /* Add padding */
-    border-radius: 10px; /* Rounded corners */
-    margin-top: 0px; /* Space between header and About section */
+    padding: 50px 20px; 
+    border-radius: 10px; 
+    margin-top: 0px; 
     align-items: center;
 }
 
@@ -107,20 +107,19 @@ nav ul li a:hover {
     color: #000000;
 }
 
-/* Updated CSS for Services section */
 #services {
-    background-color: #ffffff; /* White background color */
-    padding: 50px 20px; /* Add padding */
+    background-color: #ffffff; 
+    padding: 50px 20px; 
     text-align: center; /* Center text */
 }
 
 #services .sub-title {
-    font-size: 30px; /* Font size for the title */
-    margin-bottom: 30px; /* Space below the title */
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .services-list {
-    display: flex; /* Use flexbox for layout */
+    display: flex; 
     justify-content: space-around; /* Space out the cards evenly */
     flex-wrap: nowrap; /* Ensure all cards stay on the same line */
 }
@@ -128,22 +127,22 @@ nav ul li a:hover {
 .services-list div {
     flex-basis: 1;
     border: 1px solid #ddd;
-    padding: 20px; /* Add padding to each card */
-    border-radius: 10px; /* Rounded corners */
-    background-color: #f4f4f4; /* Light gray background color for cards */
-    margin: 10px; /* Space between cards */
-    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 20px; 
+    border-radius: 10px; 
+    background-color: #f4f4f4;
+    margin: 10px; 
+    transition: transform 0.3s, box-shadow 0.3s;/* for smooth animation */
 }
 
 .services-list div h3 {
-    font-size: 24px; /* Font size for the card titles */
-    margin-bottom: 10px; /* Space below the card titles */
+    font-size: 24px; 
+    margin-bottom: 10px; 
 }
 
 .services-list div p {
-    font-size: 16px; /* Font size for the card content */
+    font-size: 16px; 
     line-height: 1.6; /* Line height for better readability */
-    color: #555555; /* Text color */
+    color: #555555; 
     justify-content: center;
     align-items: center;
 }
@@ -189,7 +188,7 @@ nav ul li a:hover {
     background-color: #333;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer;/* to change the cursor to hand */
     transition: background 0.3s;
 }
 
